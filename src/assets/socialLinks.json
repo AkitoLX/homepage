@@ -1,25 +1,25 @@
 [
   {
     "name": "Github",
-    "icon": "/images/icon/github-128.png",
+    "icon": "/images/icon/github-96.png",
     "tip": "去 Github 看看",
     "url": "https://github.com/AkitoLX"
   },
   {
     "name": "spotify",
-    "icon": "/images/icon/spotify.png",
+    "icon": "/images/icon/spotify-96.png",
     "tip": "听听歌吧",
     "url": "https://open.spotify.com/user/31oktjninze24rvrac2yf742l44m?si=d4506a05eaa645f5"
   },
   {
     "name": "Email",
-    "icon": "/images/icon/email-128.png",
+    "icon": "/images/icon/email-96.png",
     "tip": "有什么想法？",
     "url": "mailto:akitolx2077@gmail.com"
   },
   {
     "name": "Telegram",
-    "icon": "/images/icon/telegram-96.png",
+    "icon": "/images/icon/telegram2-96.png",
     "tip": "你懂的 ~",
     "url": "https://t.me/Akitolx"
   }
