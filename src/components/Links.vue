@@ -51,6 +51,7 @@ import { Pagination, Mousewheel } from "swiper/modules";
 import siteLinks from "@/assets/siteLinks.json";
 import Spotify from "@/assets/icons/spotify.svg";
 import Mars from "@/assets/icons/mars.png"
+import CatFootprint from "@/assets/icons/cat-footprint.png"
 const store = mainStore();
 
 // 计算网站链接
@@ -66,7 +67,8 @@ const siteLinksList = computed(() => {
 // 网站链接图标
 const siteIcon = {
   Spotify,
-  Mars
+  Mars,
+  CatFootprint
 };
 
 // 链接跳转
