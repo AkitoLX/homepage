@@ -51,7 +51,7 @@ import { Swiper, SwiperSlide } from "swiper/vue";
 import { Pagination, Mousewheel } from "swiper/modules";
 import siteLinks from "@/assets/siteLinks.json";
 
-const Spotify = require("@/assets/icons/spotify.svg");
+import Spotify from "@/assets/icons/spotify.svg";
 const store = mainStore();
 
 // 计算网站链接
