@@ -45,14 +45,13 @@
 import { Icon } from "@vicons/utils";
 // 可前往 https://www.xicons.org 自行挑选并在此处引入
 import { Link } from "@vicons/fa"; // 注意使用正确的类别
-import { MdClock, } from "@vicons/ionicons4";
-import { MoodCrazyHappy} from "@vicons/tabler";
 import { mainStore } from "@/store";
 import { Swiper, SwiperSlide } from "swiper/vue";
 import { Pagination, Mousewheel } from "swiper/modules";
 import siteLinks from "@/assets/siteLinks.json";
-
 import Spotify from "@/assets/icons/spotify.svg";
+import Mars from "@/assets/icons/mars.png"
+import Cat from "@/assets/icons/cat.png"
 const store = mainStore();
 
 // 计算网站链接
@@ -68,8 +67,8 @@ const siteLinksList = computed(() => {
 // 网站链接图标
 const siteIcon = {
   Spotify,
-  MdClock,
-  MoodCrazyHappy
+  Mars,
+  Cat
 };
 
 // 链接跳转
