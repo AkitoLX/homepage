@@ -1,37 +1,12 @@
 [
   {
     "icon": "Blog",
-    "name": "博客",
+    "name": "主页",
     "link": "https://1sol.cc"
-  },
-  {
-    "icon": "Cloud",
-    "name": "网盘",
-    "link": "https://pan.imsyy.top/"
   },
   {
     "icon": "CompactDisc",
     "name": "音乐",
-    "link": "https://music.imsyy.top/"
-  },
-  {
-    "icon": "Compass",
-    "name": "起始页",
-    "link": "https://nav.imsyy.top/"
-  },
-  {
-    "icon": "Book",
-    "name": "网址集",
-    "link": "https://web.imsyy.top/"
-  },
-  {
-    "icon": "Fire",
-    "name": "今日热榜",
-    "link": "https://hot.imsyy.top/"
-  },
-  {
-    "icon": "LaptopCode",
-    "name": "站点监测",
-    "link": "https://status.imsyy.top/"
+    "link": "https://open.spotify.com/user/31oktjninze24rvrac2yf742l44m?si=d4506a05eaa645f5"
   }
 ]
