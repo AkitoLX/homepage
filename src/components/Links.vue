@@ -4,7 +4,7 @@
       <Icon size="20">
         <Link />
       </Icon>
-      <span class="title">网站列表</span>
+      <span class="title">Interesting</span>
     </div>
     <!-- 网站列表 -->
     <Swiper
@@ -43,7 +43,7 @@
 <script setup>
 import { Icon } from "@vicons/utils";
 // 可前往 https://www.xicons.org 自行挑选并在此处引入
-import { Link, Spotify} from "@vicons/fa"; // 注意使用正确的类别
+import { Link } from "@vicons/fa"; // 注意使用正确的类别
 import { MdClock, } from "@vicons/ionicons4";
 import { MoodCrazyHappy} from "@vicons/tabler";
 import { mainStore } from "@/store";
@@ -51,6 +51,7 @@ import { Swiper, SwiperSlide } from "swiper/vue";
 import { Pagination, Mousewheel } from "swiper/modules";
 import siteLinks from "@/assets/siteLinks.json";
 
+const Spotify = require("@/assets/icons/spotify.svg");
 const store = mainStore();
 
 // 计算网站链接
