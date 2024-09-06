@@ -97,6 +97,7 @@ onMounted(() => {
       margin-left: 8px;
       font-size: 1.15rem;
       text-shadow: 0 0 5px #00000050;
+      font-family: "Pacifico-Regular";
     }
   }
   .swiper {
