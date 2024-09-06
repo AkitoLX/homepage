@@ -1,7 +1,7 @@
 [
   {
     "name": "Github",
-    "icon": "/images/icon/github.png",
+    "icon": "/images/icon/github-128.png",
     "tip": "去 Github 看看",
     "url": "https://github.com/AkitoLX"
   },
@@ -13,13 +13,13 @@
   },
   {
     "name": "Email",
-    "icon": "/images/icon/email.png",
+    "icon": "/images/icon/email-128.png",
     "tip": "有什么想法？",
     "url": "mailto:akitolx2077@gmail.com"
   },
   {
     "name": "Telegram",
-    "icon": "/images/icon/telegram.png",
+    "icon": "/images/icon/telegram-96.png",
     "tip": "你懂的 ~",
     "url": "https://t.me/Akitolx"
   }
