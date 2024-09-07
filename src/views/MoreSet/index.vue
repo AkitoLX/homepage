@@ -13,8 +13,8 @@
     <el-row :gutter="40">
       <el-col :span="12" class="left">
         <div class="logo text-hidden">
-          <span class="bg">{{ author }}</span>
-          <!-- <span class="sm">.{{ siteUrl[1] }}</span> -->
+          <span class="bg">{{ siteUrl[0] }}</span>
+          <span class="sm">.{{ siteUrl[1] }}</span>
         </div>
         <div class="version">
           <div class="num">v&nbsp;{{ config.version }}</div>
@@ -61,18 +61,16 @@ const store = mainStore();
 const closeShow = ref(false);
 
 // 站点链接
-// const siteUrl = computed(() => {
-//   const url = import.meta.env.VITE_SITE_URL;
-//   if (!url) return "imsyy.top".split(".");
-//   // 判断协议前缀
-//   if (url.startsWith("http://") || url.startsWith("https://")) {
-//     const urlFormat = url.replace(/^(https?:\/\/)/, "");
-//     return urlFormat.split(".");
-//   }
-//   return url.split(".");
-// });
-
-const author = import.meta.env.VITE_SITE_AUTHOR;
+const siteUrl = computed(() => {
+  const url = import.meta.env.VITE_SITE_URL;
+  if (!url) return "imsyy.top".split(".");
+  // 判断协议前缀
+  if (url.startsWith("http://") || url.startsWith("https://")) {
+    const urlFormat = url.replace(/^(https?:\/\/)/, "");
+    return urlFormat.split(".");
+  }
+  return url.split(".");
+});
 
 // 更新日志
 const upData = reactive({
