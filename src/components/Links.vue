@@ -51,7 +51,7 @@ import { Pagination, Mousewheel } from "swiper/modules";
 import siteLinks from "@/assets/siteLinks.json";
 import Spotify from "@/assets/icons/spotify.svg";
 import Mars from "@/assets/icons/mars.png"
-import CatFootprint from "@/assets/icons/cat-footprint.png"
+import Ham from "@/assets/icons/ham.png"
 const store = mainStore();
 
 // 计算网站链接
@@ -68,7 +68,7 @@ const siteLinksList = computed(() => {
 const siteIcon = {
   Spotify,
   Mars,
-  CatFootprint
+  Ham
 };
 
 // 链接跳转
@@ -97,7 +97,7 @@ onMounted(() => {
       margin-left: 8px;
       font-size: 1.15rem;
       text-shadow: 0 0 5px #00000050;
-      font-family: "Pacifico-Regular";
+      font-family: "Caveat";
     }
   }
   .swiper {
