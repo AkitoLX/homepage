@@ -12,6 +12,12 @@
     "url": "https://open.spotify.com/user/31oktjninze24rvrac2yf742l44m?si=d4506a05eaa645f5"
   },
   {
+    "name": "Pinterest",
+    "icon": "/images/icon/pinterest-96.png",
+    "tip": "Pinterest",
+    "url": "https://www.pinterest.com/akitolx/"
+  },
+  {
     "name": "Email",
     "icon": "/images/icon/email-96.png",
     "tip": "有什么想法？",
