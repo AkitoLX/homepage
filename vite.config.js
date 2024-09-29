@@ -72,13 +72,8 @@ export default ({ mode }) =>
               type: "image/png",
             },
             {
-              src: "/images/icon/144.png",
-              sizes: "144x144",
-              type: "image/png",
-            },
-            {
-              src: "/images/icon/192.png",
-              sizes: "192x192",
+              src: "/images/icon/256.png",
+              sizes: "256x256",
               type: "image/png",
             },
             {
