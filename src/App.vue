@@ -27,7 +27,7 @@
       </Icon>
       <!-- 页脚 -->
       <Transition name="fade" mode="out-in">
-        <Footer class="f-ter" v-show="!store.backgroundShow && !store.setOpenState" />
+        <!-- <Footer class="f-ter" v-show="!store.backgroundShow && !store.setOpenState" /> -->
       </Transition>
     </main>
   </Transition>
