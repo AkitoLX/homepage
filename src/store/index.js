@@ -24,7 +24,7 @@ export const mainStore = defineStore("main", {
       footerBlur: true, // 底栏模糊
       playerAutoplay: true, // 是否自动播放
       playerLoop: "all", // 循环播放 "all", "one", "none"
-      playerOrder: "list", // 循环顺序 "list", "random"
+      playerOrder: "random", // 循环顺序 "list", "random"
     };
   },
   getters: {

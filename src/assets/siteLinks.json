@@ -6,13 +6,18 @@
   },
   {
     "icon": "Spotify",
-    "name": "试听一下吧",
+    "name": "Spotify",
     "link": "https://open.spotify.com/playlist/1zyWR3IVIWqYwID8F4GgIy?si=b355b9289fb84786"
   },
   {
     "icon": "Mars",
     "name": "火星时钟",
     "link": "https://marsclock.com/"
+  },
+  {
+    "icon": "Spotify",
+    "name": "Love You Like a Love Song",
+    "link": "https://open.spotify.com/track/0laYHRpNTS6i8FXdupHkJ4?si=82c808999b684cd4"
   }
   
 ]

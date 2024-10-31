@@ -8,7 +8,7 @@
   {
     "name": "spotify",
     "icon": "/images/icon/spotify-96.png",
-    "tip": "听听歌吧",
+    "tip": "听听吧",
     "url": "https://open.spotify.com/user/31oktjninze24rvrac2yf742l44m?si=d4506a05eaa645f5"
   },
   {
@@ -26,7 +26,20 @@
   {
     "name": "Telegram",
     "icon": "/images/icon/telegram2-96.png",
-    "tip": "你懂的 ~",
+    "tip": "联系我..",
     "url": "https://t.me/Akitolx"
+  },{
+    "name": "Steam",
+    "icon":"/images/icon/steam-96.png",
+    "tip":"Let's play a game!",
+    "url":"https://steamcommunity.com/id/AkitoLX/"
+
+  },
+  {
+    "name": "PlayStation",
+    "icon":"/images/icon/playstation-96.png",
+    "tip":"Let's play a game!",
+    "url":"https://profile.playstation.com/Akito2077"
+
   }
 ]
